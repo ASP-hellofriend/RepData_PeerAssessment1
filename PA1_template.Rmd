@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 We are loading and pre-processing data which we will use to extrapolate and answer questions about people's daily movement activities.
 
 ```{r}
+library("ggplot2")
 actData <- read.csv("./activity.csv")
 summary(actData)
 ```
